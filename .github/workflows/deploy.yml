@@ -11,7 +11,7 @@ jobs:
   test:
     environment: testing
     runs-on: ubuntu-latest
-    Container:
+    container:
       image: node:16
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb+srv
